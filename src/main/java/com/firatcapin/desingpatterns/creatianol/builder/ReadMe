@@ -1,0 +1,9 @@
+Bunun için Emlakçı ve Ev örneği üzerinden gidelim.
+Karmaşık bir ev yapısı düşünelim.
+Ev içerisnde bir çok parametre var. Bu parametreler için contructor oluşturyuoruz.
+Her oluşturdugmz contructora veri gönderimi contructorı parametre sayısı kadar zorunlu.
+Ben göndermediğim parametreleri opsiyonel yapmak istiyorsam burda Builder Pttern Devreye griyior.
+BuilderEv diye bir class oluşturuyorz.
+Burda dikaktimizi çekecek şey her parametrenin seter classını kendisini döndüreceği şekilde değiştiriyruz
+ve return this yapıyoruz.
+En sonunda Ev clasını dönduryoruz.
