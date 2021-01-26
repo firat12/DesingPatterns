@@ -25,7 +25,7 @@ public class SingletonRun {
      * runtime yani lock oluşturacak. Multithread yapılarda tavsiye edilmez.
      * Ayrıca uygulama ayağa kalkar kalkmaz hemen oluşması bizim için bir sıkıntı.
      */
-     LazySingleton.getLazySingleton().singletonTest();
+     //LazySingleton.getLazySingleton().singletonTest();
 
 
      /** Bunun dezvantajı her defasında instance oluşturuken zaman kaybediyor.

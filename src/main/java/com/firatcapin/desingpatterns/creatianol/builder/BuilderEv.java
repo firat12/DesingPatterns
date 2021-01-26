@@ -12,8 +12,14 @@ public class BuilderEv {
     private Boolean isEsyali;
     private Boolean isOtopark;
 
-    public static BuilderEv startBuild(){
-        return new BuilderEv();
+    // Zorunlu alanları startBuild parametleri olarka ekliyoruz
+    public static BuilderEv startBuild(String il, String ilce,String mahalle,int odaSayisi){
+        BuilderEv evBuilder = new BuilderEv();
+        evBuilder.il = il;
+        evBuilder.ilce = ilce;
+        evBuilder.mahalle = mahalle;
+        evBuilder.odaSayisi = odaSayisi;
+        return evBuilder;
     }
 
 
@@ -32,25 +38,6 @@ public class BuilderEv {
         return ev;
     }
 
-    public BuilderEv setIl(String il) {
-        this.il = il;
-        return this;
-    }
-
-    public BuilderEv setIlce(String ilce) {
-        this.ilce = ilce;
-        return this;
-    }
-
-    public BuilderEv setMahalle(String mahalle) {
-        this.mahalle = mahalle;
-        return this;
-    }
-
-    public BuilderEv setOdaSayisi(int odaSayisi) {
-        this.odaSayisi = odaSayisi;
-        return this;
-    }
 
     public BuilderEv setBanyoSayisi(int banyoSayisi) {
         this.banyoSayisi = banyoSayisi;
