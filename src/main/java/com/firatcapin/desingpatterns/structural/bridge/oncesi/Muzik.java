@@ -1,4 +1,4 @@
-package com.firatcapin.desingpatterns.structural.bridge;
+package com.firatcapin.desingpatterns.structural.bridge.oncesi;
 
 public class Muzik {
     private String ad;
