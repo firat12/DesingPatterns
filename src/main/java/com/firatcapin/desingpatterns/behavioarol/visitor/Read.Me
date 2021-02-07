@@ -1,0 +1,29 @@
+Visitor : Ziyaretçi demektir.
+Üzerinde çalıştığımız elementlerin veya modüllerin classlarında bir değişklik yapmadan
+yeni bir işlem yapmamıza olanak sağlar.
+
+Örneğimiz Ülkemizin Günlük Korona verileri baz alınarak hazırlanmıştır.
+
+Önceki Günlük Rapor Bilgileri; 28 Temmuz 2020 Tarihine kadar aşağıdaki bilgilere göre günlk rapor veriliyordu
+
+Toplam Test Sayısı,
+Toplam Vaka Sayısı,
+Toplam Vefat Sayısı,
+Toplam Yoğun Bakım Sayısı,
+Toplam Entübe Sayısı,
+Toplam İyileşen Hasta Sayısı
+
+Daha sonra Ulalararası Standar Uygun Rapora göre günlük verilen rapor bilgileri;
+Toplam Test Sayısı
+Toplam Hasta Sayısı
+Toplam Vefat Sayısı
+Hastalarda Zatüre Oranı
+Ağır Hasta Sayısı
+Toplam Hasta Sayısı
+Toplam İyileşen Hasta Sayısı
+
+Şimdi diyelim bu raporu hazırlayan biz olalım.
+Bize 28 temmuz da gelip hadi bakalım raporun içeriğini değiştiriyoruz deseler.
+Ve biz visitor design pattern kullanmıyorsak
+Ana classlarda tek tek değişiklik yapacaktık.
+Ama ana classlarda hiç değişiklik yapmadan istenilen değişilikleri visitor classlar üzerinde yapıp raporu değiştirebiliriz.
